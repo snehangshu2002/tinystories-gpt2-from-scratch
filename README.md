@@ -1,17 +1,17 @@
-# TinyStories GPT-2 (124M) From Scratch 🚀
+# TinyStories GPT-2 (124M) From Scratch
 
-[![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model%20Card-ffcc00.svg)](https://hf.co/snehangshu511/tinystories-gpt2-124M-scratch)
+[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model%20Card-ffcc00.svg)](https://hf.co/snehangshu511/tinystories-gpt2-124M-scratch)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 
 A 124M-parameter GPT-2 style language model built entirely from scratch in raw PyTorch and trained on the [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) dataset. 
 
 This project was built as a hands-on deep dive into the architecture of Large Language Models. It features a completely custom, from-scratch implementation of the Transformer decoder block, integrated seamlessly into the Hugging Face `transformers` ecosystem.
 
-👉 **[Try out the model on Hugging Face!](https://hf.co/snehangshu511/tinystories-gpt2-124M-scratch)**
+**[Try out the model on Hugging Face!](https://hf.co/snehangshu511/tinystories-gpt2-124M-scratch)**
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 | | |
 |---|---|
@@ -27,7 +27,7 @@ This project was built as a hands-on deep dive into the architecture of Large La
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 - `train_tinystories_gpt2.ipynb`: The main Google Colab / Jupyter notebook containing the from-scratch PyTorch architecture, training loop (via PyTorch Lightning), and Hugging Face export logic.
 - `hf_model.py`: The custom Python wrapper (`SmallLLMForCausalLM`) that allows the raw PyTorch model to be fully compatible with Hugging Face's `AutoModel` and `pipeline` features.
@@ -36,7 +36,7 @@ This project was built as a hands-on deep dive into the architecture of Large La
 
 ---
 
-## 💻 How to Use (Inference)
+## How to Use (Inference)
 
 Because this model uses a custom architecture, you **must** pass `trust_remote_code=True` when loading the model via Hugging Face.
 
@@ -109,7 +109,7 @@ print(tokenizer.decode(output_ids[0], skip_special_tokens=True))
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 This model is trained specifically on the **TinyStories** dataset. 
 - It excels at generating very simple, childlike stories with basic vocabulary.
@@ -118,7 +118,7 @@ This model is trained specifically on the **TinyStories** dataset.
 
 ---
 
-## 👤 Author
+## Author
 
 **Snehangshu Bhuin**
 - GitHub: [snehangshu2002](https://github.com/snehangshu2002)
