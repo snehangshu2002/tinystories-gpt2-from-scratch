@@ -13,7 +13,9 @@
   <img src="https://img.shields.io/badge/Lightning-792EE5?style=for-the-badge&logo=lightning&logoColor=white" alt="PyTorch Lightning"/>
   <img src="https://img.shields.io/badge/Parameters-124M-green?style=for-the-badge" alt="124M Parameters"/>
 </p>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/snehangshu2002/tinystories-gpt2-from-scratch/main/img/Screenshot%202026-04-22%20202232.png" alt="Demo Preview" width="800"/>
+</p>
 <p align="center">
   A <strong>124M-parameter GPT-2 style language model</strong> implemented entirely from scratch in raw PyTorch,<br/>
   trained on the <a href="https://huggingface.co/datasets/roneneldan/TinyStories">TinyStories</a> dataset, and fully integrated into the Hugging Face ecosystem.
