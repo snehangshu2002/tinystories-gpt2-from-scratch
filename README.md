@@ -14,8 +14,7 @@
   <img src="https://img.shields.io/badge/Parameters-124M-green?style=for-the-badge" alt="124M Parameters"/>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/snehangshu2002/tinystories-gpt2-from-scratch/img
-/Screenshot 2026-04-22 202232.png" alt="Demo Preview" width="800">
+  <img src="https://raw.githubusercontent.com/snehangshu2002/tinystories-gpt2-from-scratch/main/img/demo.png" alt="Demo Preview" width="800">
 </p>
 <p align="center">
   A <strong>124M-parameter GPT-2 style language model</strong> implemented entirely from scratch in raw PyTorch,<br/>
