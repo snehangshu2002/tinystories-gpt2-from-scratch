@@ -59,9 +59,13 @@ The model is trained to generate short, coherent children's stories and is fully
 
 ```
 .
-├── train_tinystories_gpt2.ipynb   # Main training notebook (architecture + training loop + HF export)
-├── hf_model.py                    # Custom HF-compatible wrapper (SmallLLMForCausalLM)
-├── pyproject.toml                 # Project dependencies
+├── .gitignore                  # Ignore unnecessary files
+├── README.md                  # Project documentation
+├── app.py                     # Inference / app entry point
+├── hf_model.py                # Hugging Face model integration
+├── pyproject.toml             # Project dependencies & config
+├── train_tinystories_gpt2.ipynb  # Training notebook (GPT-2 from scratch)
+└── uv.lock                    # Dependency lock file
 ```
 
 | File | Description |
