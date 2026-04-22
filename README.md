@@ -22,7 +22,8 @@ This project was built as a hands-on deep dive into the architecture of Large La
 | **Embedding dim** | 768 |
 | **Context length** | 128 tokens |
 | **Vocabulary** | 50,257 (GPT-2 BPE via `tiktoken`) |
-| **Training data** | TinyStories |
+| **Training data** | 20,000 TinyStories samples |
+| **Validation data** | 5,000 TinyStories samples |
 
 ---
 
