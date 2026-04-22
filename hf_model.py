@@ -237,6 +237,7 @@ class SmallLLMForCausalLM(PreTrainedModel):
     """
 
     config_class = SmallLLMConfig
+    base_model_prefix = "gpt"
 
     def __init__(self, config: SmallLLMConfig):
         super().__init__(config)
