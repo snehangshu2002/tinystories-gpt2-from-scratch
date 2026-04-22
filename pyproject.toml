@@ -1,0 +1,22 @@
+[project]
+name = "tinystories-gpt2"
+version = "0.1.0"
+description = "A GPT-2 style language model trained on TinyStories, compatible with Hugging Face Transformers."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.38.0",
+    "huggingface_hub>=0.21.0",
+    "pytorch-lightning>=2.0.0",
+    "tiktoken>=0.6.0",
+    "datasets>=2.18.0",
+    "matplotlib>=3.8.0",
+    "numpy>=1.26.0",
+    "torchinfo>=1.8.0",
+    "accelerate>=0.27.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends.legacy:build"
